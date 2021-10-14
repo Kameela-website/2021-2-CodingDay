@@ -1,0 +1,14 @@
+html
+{
+    box-sizing: border-box;
+    height: 100%;
+    align-items: center;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+main{
+    background-color: lavender;
+    display: flex;
+    flex-direction: column;
+}
