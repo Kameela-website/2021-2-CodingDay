@@ -1,4 +1,18 @@
 /* Text Elements */
+html{
+  box-sizing: border-box;
+  height: 100%;
+
+}
+*,*::after,*::before{
+  box-sizing: inherit;
+}
+.no-js ~ main {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
 
 h1 {
   margin-bottom: .75rem;
@@ -15,6 +29,8 @@ aside p {
   font-weight: 700;
   font-size: .9rem;
   font-family: 'Arimo', cursive;
+  display: grid;
+  
 }
 
 p {

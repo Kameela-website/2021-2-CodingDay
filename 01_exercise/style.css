@@ -1,9 +1,18 @@
+html{
+	box-sizing: border-box;
+}
 h1 {
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
+	
 }
-
+*,*::after,*::before{
+	box-sizing: inherit;
+}
 .robots {
+	display: flex;
+	justify-content: center;
+	
 }
 
 .head, 
@@ -13,6 +22,7 @@ h1 {
 .left_leg, 
 .right_leg {
 	 background-color: #5f93e8;
+	 
 }
 
 .head { 
@@ -24,7 +34,8 @@ h1 {
 } 
 
 .eyes {
-	
+	display:flex;
+	align-items: center;
 }
 
 .upper_body { 
@@ -58,6 +69,8 @@ h1 {
 	height: 200px;
 	/* This is another useful property. Hmm what do you think it does?*/
 	margin: 0 auto;
+	display: flex;
+	align-items: center;
 
 } 
 
@@ -65,6 +78,9 @@ h1 {
 	width: 40px; 
 	height: 120px;
 	border-radius: 0 0 100px 100px; 
+	display: flex;
+	align-items:flex-start ;
+
 } 
 
 .left_leg { 
@@ -81,6 +97,9 @@ h1 {
 
 .right_leg { 
 	margin-left: 30px; 
+	display: flex;
+	align-items:flex-start ;
+
 }
 
 .left_eye, .right_eye { 
